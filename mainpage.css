@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+#head{
+    border: solid 1px #000000;
+    height: 46px;
+    background-color:#000000;
+    /* padding-top: 10px; */
+    line-height: 45px;
+
+}
+#headtext{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 100px;
+    text-align: center; 
+
+}
+.outbox{
+    border:solid 1px white;
+    height: 150px;
+    display: flex;
+    text-align: center; 
+}
+#box1,#box2,#box3{
+    border:solid 1px white;
+    height: 150px;
+}
+#box1{
+    width: 170px;
+}
+#box2{
+    width: 1200px;
+}
+#box3{
+    width: 170px;
+}
+#clgname{
+    font-size: 45px;
+    color: #ff0000;
+
+}
+#text1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#text2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+}
+#clgnamescroll{
+    font-size: 20px;
+    font-weight: bold;
+}
+#navigation{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px white;
+    height: 50px;
+    width: 124px;
+    float: left;
+    background-color: #000000;
+    text-align: center;
+    line-height: 50px;
+
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: #87ceeb;
+
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.out1{
+    border: solid 1px white;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#in1,#in2,#in3{
+    border: solid 1px white;
+    height: 380px;
+    z-index: -1;
+}
+.outdep{
+    border: solid 1px white;
+    height: 730px;
+}
+#ourdep{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.outdep1{
+    border: solid 1px white;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#indep1,#indep2,#indep3,#indep4,#indep5,#indep6{
+    border: solid 1px white;
+    height: 289px;
+    width: 450px;
+}
+#indep1{
+    background-image: url(EEE.jpg);
+}
+#indep1,#indep2,#indep3,#indep4,#indep5,#indep6{
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    padding: 10px 10px 0px 10px;
+    /* box-sizing: border-box; */
+}
+#dep{
+    background-color:#dddfd8;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 38px;
+}
+#indep2{
+    background-image: url(ECE.jpg);        
+}
+#indep3{
+    background-image: url(CSE.jpg);
+
+}
+#indep4{
+    background-image: url(MECH.jpg);
+}
+#indep5{
+    background-image: url(CIVIL.jpg);
+}
+#indep6{
+    background-image: url(AIML.jpg);
+}
+#ourcompanies{
+    border: solid 1px white;
+    height: 300px;
+    
+}
